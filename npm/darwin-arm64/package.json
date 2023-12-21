@@ -1,15 +1,15 @@
 {
   "name": "@itkyk/ftp-core-darwin-arm64",
-  "version": "0.0.2-beta0.1",
+  "version": "0.0.2-beta0.2",
   "os": [
     "darwin"
   ],
   "cpu": [
     "arm64"
   ],
-  "main": "@itkyk/ftp-core.darwin-arm64.node",
+  "main": "ftp-core.darwin-arm64.node",
   "files": [
-    "@itkyk/ftp-core.darwin-arm64.node"
+    "ftp-core.darwin-arm64.node"
   ],
   "description": "ftp uploader core code",
   "license": "MIT",

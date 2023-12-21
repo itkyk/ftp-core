@@ -1,15 +1,15 @@
 {
   "name": "@itkyk/ftp-core-win32-x64-msvc",
-  "version": "0.0.2-beta0.1",
+  "version": "0.0.2-beta0.2",
   "os": [
     "win32"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "@itkyk/ftp-core.win32-x64-msvc.node",
+  "main": "ftp-core.win32-x64-msvc.node",
   "files": [
-    "@itkyk/ftp-core.win32-x64-msvc.node"
+    "ftp-core.win32-x64-msvc.node"
   ],
   "description": "ftp uploader core code",
   "license": "MIT",
