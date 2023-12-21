@@ -32,24 +32,24 @@ switch (platform) {
   case 'android':
     switch (arch) {
       case 'arm64':
-        localFileExisted = existsSync(join(__dirname, 'ftp-controller.android-arm64.node'))
+        localFileExisted = existsSync(join(__dirname, '@itkyk/ftp-core.android-arm64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.android-arm64.node')
+            nativeBinding = require('./@itkyk/ftp-core.android-arm64.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-android-arm64')
+            nativeBinding = require('@itkyk/ftp-core-android-arm64')
           }
         } catch (e) {
           loadError = e
         }
         break
       case 'arm':
-        localFileExisted = existsSync(join(__dirname, 'ftp-controller.android-arm-eabi.node'))
+        localFileExisted = existsSync(join(__dirname, '@itkyk/ftp-core.android-arm-eabi.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.android-arm-eabi.node')
+            nativeBinding = require('./@itkyk/ftp-core.android-arm-eabi.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-android-arm-eabi')
+            nativeBinding = require('@itkyk/ftp-core-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -63,13 +63,13 @@ switch (platform) {
     switch (arch) {
       case 'x64':
         localFileExisted = existsSync(
-          join(__dirname, 'ftp-controller.win32-x64-msvc.node')
+          join(__dirname, '@itkyk/ftp-core.win32-x64-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.win32-x64-msvc.node')
+            nativeBinding = require('./@itkyk/ftp-core.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-win32-x64-msvc')
+            nativeBinding = require('@itkyk/ftp-core-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -77,13 +77,13 @@ switch (platform) {
         break
       case 'ia32':
         localFileExisted = existsSync(
-          join(__dirname, 'ftp-controller.win32-ia32-msvc.node')
+          join(__dirname, '@itkyk/ftp-core.win32-ia32-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.win32-ia32-msvc.node')
+            nativeBinding = require('./@itkyk/ftp-core.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-win32-ia32-msvc')
+            nativeBinding = require('@itkyk/ftp-core-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -91,13 +91,13 @@ switch (platform) {
         break
       case 'arm64':
         localFileExisted = existsSync(
-          join(__dirname, 'ftp-controller.win32-arm64-msvc.node')
+          join(__dirname, '@itkyk/ftp-core.win32-arm64-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.win32-arm64-msvc.node')
+            nativeBinding = require('./@itkyk/ftp-core.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-win32-arm64-msvc')
+            nativeBinding = require('@itkyk/ftp-core-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -108,23 +108,23 @@ switch (platform) {
     }
     break
   case 'darwin':
-    localFileExisted = existsSync(join(__dirname, 'ftp-controller.darwin-universal.node'))
+    localFileExisted = existsSync(join(__dirname, '@itkyk/ftp-core.darwin-universal.node'))
     try {
       if (localFileExisted) {
-        nativeBinding = require('./ftp-controller.darwin-universal.node')
+        nativeBinding = require('./@itkyk/ftp-core.darwin-universal.node')
       } else {
-        nativeBinding = require('@itkyk/ftp-controller-darwin-universal')
+        nativeBinding = require('@itkyk/ftp-core-darwin-universal')
       }
       break
     } catch {}
     switch (arch) {
       case 'x64':
-        localFileExisted = existsSync(join(__dirname, 'ftp-controller.darwin-x64.node'))
+        localFileExisted = existsSync(join(__dirname, '@itkyk/ftp-core.darwin-x64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.darwin-x64.node')
+            nativeBinding = require('./@itkyk/ftp-core.darwin-x64.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-darwin-x64')
+            nativeBinding = require('@itkyk/ftp-core-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -132,13 +132,13 @@ switch (platform) {
         break
       case 'arm64':
         localFileExisted = existsSync(
-          join(__dirname, 'ftp-controller.darwin-arm64.node')
+          join(__dirname, '@itkyk/ftp-core.darwin-arm64.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.darwin-arm64.node')
+            nativeBinding = require('./@itkyk/ftp-core.darwin-arm64.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-darwin-arm64')
+            nativeBinding = require('@itkyk/ftp-core-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -152,12 +152,12 @@ switch (platform) {
     if (arch !== 'x64') {
       throw new Error(`Unsupported architecture on FreeBSD: ${arch}`)
     }
-    localFileExisted = existsSync(join(__dirname, 'ftp-controller.freebsd-x64.node'))
+    localFileExisted = existsSync(join(__dirname, '@itkyk/ftp-core.freebsd-x64.node'))
     try {
       if (localFileExisted) {
-        nativeBinding = require('./ftp-controller.freebsd-x64.node')
+        nativeBinding = require('./@itkyk/ftp-core.freebsd-x64.node')
       } else {
-        nativeBinding = require('@itkyk/ftp-controller-freebsd-x64')
+        nativeBinding = require('@itkyk/ftp-core-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -168,26 +168,26 @@ switch (platform) {
       case 'x64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, 'ftp-controller.linux-x64-musl.node')
+            join(__dirname, '@itkyk/ftp-core.linux-x64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./ftp-controller.linux-x64-musl.node')
+              nativeBinding = require('./@itkyk/ftp-core.linux-x64-musl.node')
             } else {
-              nativeBinding = require('@itkyk/ftp-controller-linux-x64-musl')
+              nativeBinding = require('@itkyk/ftp-core-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, 'ftp-controller.linux-x64-gnu.node')
+            join(__dirname, '@itkyk/ftp-core.linux-x64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./ftp-controller.linux-x64-gnu.node')
+              nativeBinding = require('./@itkyk/ftp-core.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('@itkyk/ftp-controller-linux-x64-gnu')
+              nativeBinding = require('@itkyk/ftp-core-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -197,26 +197,26 @@ switch (platform) {
       case 'arm64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, 'ftp-controller.linux-arm64-musl.node')
+            join(__dirname, '@itkyk/ftp-core.linux-arm64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./ftp-controller.linux-arm64-musl.node')
+              nativeBinding = require('./@itkyk/ftp-core.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('@itkyk/ftp-controller-linux-arm64-musl')
+              nativeBinding = require('@itkyk/ftp-core-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, 'ftp-controller.linux-arm64-gnu.node')
+            join(__dirname, '@itkyk/ftp-core.linux-arm64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./ftp-controller.linux-arm64-gnu.node')
+              nativeBinding = require('./@itkyk/ftp-core.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('@itkyk/ftp-controller-linux-arm64-gnu')
+              nativeBinding = require('@itkyk/ftp-core-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -225,13 +225,13 @@ switch (platform) {
         break
       case 'arm':
         localFileExisted = existsSync(
-          join(__dirname, 'ftp-controller.linux-arm-gnueabihf.node')
+          join(__dirname, '@itkyk/ftp-core.linux-arm-gnueabihf.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./ftp-controller.linux-arm-gnueabihf.node')
+            nativeBinding = require('./@itkyk/ftp-core.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('@itkyk/ftp-controller-linux-arm-gnueabihf')
+            nativeBinding = require('@itkyk/ftp-core-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e
@@ -240,26 +240,26 @@ switch (platform) {
       case 'riscv64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, 'ftp-controller.linux-riscv64-musl.node')
+            join(__dirname, '@itkyk/ftp-core.linux-riscv64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./ftp-controller.linux-riscv64-musl.node')
+              nativeBinding = require('./@itkyk/ftp-core.linux-riscv64-musl.node')
             } else {
-              nativeBinding = require('@itkyk/ftp-controller-linux-riscv64-musl')
+              nativeBinding = require('@itkyk/ftp-core-linux-riscv64-musl')
             }
           } catch (e) {
             loadError = e
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, 'ftp-controller.linux-riscv64-gnu.node')
+            join(__dirname, '@itkyk/ftp-core.linux-riscv64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./ftp-controller.linux-riscv64-gnu.node')
+              nativeBinding = require('./@itkyk/ftp-core.linux-riscv64-gnu.node')
             } else {
-              nativeBinding = require('@itkyk/ftp-controller-linux-riscv64-gnu')
+              nativeBinding = require('@itkyk/ftp-core-linux-riscv64-gnu')
             }
           } catch (e) {
             loadError = e
