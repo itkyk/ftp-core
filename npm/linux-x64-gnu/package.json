@@ -1,6 +1,6 @@
 {
   "name": "@itkyk/ftp-core-linux-x64-gnu",
-  "version": "0.0.2-beta0.2",
+  "version": "0.0.2-beta0.3",
   "os": [
     "linux"
   ],
