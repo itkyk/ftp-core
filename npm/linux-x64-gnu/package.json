@@ -1,0 +1,23 @@
+{
+  "name": "@itkyk/ftp-core-linux-x64-gnu",
+  "version": "0.0.1",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "ftp-core.linux-x64-gnu.node",
+  "files": [
+    "ftp-core.linux-x64-gnu.node"
+  ],
+  "description": "ftp uploader core code",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "git+https://github.com/itkyk/ftp-core.git",
+  "libc": [
+    "glibc"
+  ]
+}

@@ -1,6 +1,6 @@
 [package]
 edition = "2021"
-name = "itkyk_ftp-controller"
+name = "itkyk_ftp-core"
 version = "0.0.0"
 
 [lib]
