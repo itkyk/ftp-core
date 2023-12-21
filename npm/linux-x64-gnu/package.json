@@ -1,0 +1,21 @@
+{
+  "name": "@itkyk/ftp-controller-linux-x64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "ftp-controller.linux-x64-gnu.node",
+  "files": [
+    "ftp-controller.linux-x64-gnu.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ]
+}

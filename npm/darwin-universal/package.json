@@ -1,0 +1,15 @@
+{
+  "name": "@itkyk/ftp-controller-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "ftp-controller.darwin-universal.node",
+  "files": [
+    "ftp-controller.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@itkyk/ftp-controller-linux-riscv64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "riscv64"
+  ],
+  "main": "ftp-controller.linux-riscv64-gnu.node",
+  "files": [
+    "ftp-controller.linux-riscv64-gnu.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ]
+}
