@@ -7,14 +7,17 @@
   "cpu": [
     "arm64"
   ],
-  "main": "ftp-core.darwin-arm64.node",
+  "main": "@itkyk/ftp-core.darwin-arm64.node",
   "files": [
-    "ftp-core.darwin-arm64.node"
+    "@itkyk/ftp-core.darwin-arm64.node"
   ],
   "description": "ftp uploader core code",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "git+https://github.com/itkyk/ftp-core.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itkyk/ftp-core.git"
+  }
 }

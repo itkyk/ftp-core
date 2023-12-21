@@ -7,14 +7,17 @@
   "cpu": [
     "x64"
   ],
-  "main": "ftp-core.win32-x64-msvc.node",
+  "main": "@itkyk/ftp-core.win32-x64-msvc.node",
   "files": [
-    "ftp-core.win32-x64-msvc.node"
+    "@itkyk/ftp-core.win32-x64-msvc.node"
   ],
   "description": "ftp uploader core code",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
   },
-  "repository": "git+https://github.com/itkyk/ftp-core.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itkyk/ftp-core.git"
+  }
 }

@@ -8,7 +8,7 @@
     "url": "git+https://github.com/itkyk/ftp-core.git"
   },
   "napi": {
-    "name": "ftp-core",
+    "name": "@itkyk/ftp-core",
     "triples": {
       "additional": [
         "aarch64-apple-darwin"
