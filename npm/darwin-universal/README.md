@@ -1,3 +1,3 @@
-# `@itkyk/ftp-controller-darwin-universal`
+# `@itkyk/ftp-core-darwin-universal`
 
-This is the **universal-apple-darwin** binary for `@itkyk/ftp-controller`
+This is the **universal-apple-darwin** binary for `@itkyk/ftp-core`

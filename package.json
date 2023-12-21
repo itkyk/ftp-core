@@ -1,10 +1,10 @@
 {
-  "name": "@itkyk/ftp-controller",
+  "name": "@itkyk/ftp-core",
   "version": "0.0.0",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "ftp-controller",
+    "name": "@itkyk/ftp-core",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",

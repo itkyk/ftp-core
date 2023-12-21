@@ -1,3 +1,3 @@
-# `@itkyk/ftp-controller-linux-arm-gnueabihf`
+# `@itkyk/ftp-core-linux-arm-gnueabihf`
 
-This is the **armv7-unknown-linux-gnueabihf** binary for `@itkyk/ftp-controller`
+This is the **armv7-unknown-linux-gnueabihf** binary for `@itkyk/ftp-core`

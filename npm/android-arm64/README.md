@@ -1,3 +1,3 @@
-# `@itkyk/ftp-controller-android-arm64`
+# `@itkyk/ftp-core-android-arm64`
 
-This is the **aarch64-linux-android** binary for `@itkyk/ftp-controller`
+This is the **aarch64-linux-android** binary for `@itkyk/ftp-core`

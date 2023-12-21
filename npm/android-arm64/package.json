@@ -1,5 +1,5 @@
 {
-  "name": "@itkyk/ftp-controller-android-arm64",
+  "name": "@itkyk/ftp-core-android-arm64",
   "version": "0.0.0",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "ftp-controller.android-arm64.node",
+  "main": "@itkyk/ftp-core.android-arm64.node",
   "files": [
-    "ftp-controller.android-arm64.node"
+    "@itkyk/ftp-core.android-arm64.node"
   ],
   "license": "MIT",
   "engines": {

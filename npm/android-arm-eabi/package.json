@@ -1,5 +1,5 @@
 {
-  "name": "@itkyk/ftp-controller-android-arm-eabi",
+  "name": "@itkyk/ftp-core-android-arm-eabi",
   "version": "0.0.0",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "ftp-controller.android-arm-eabi.node",
+  "main": "@itkyk/ftp-core.android-arm-eabi.node",
   "files": [
-    "ftp-controller.android-arm-eabi.node"
+    "@itkyk/ftp-core.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {

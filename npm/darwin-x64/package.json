@@ -1,5 +1,5 @@
 {
-  "name": "@itkyk/ftp-controller-darwin-x64",
+  "name": "@itkyk/ftp-core-darwin-x64",
   "version": "0.0.0",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "ftp-controller.darwin-x64.node",
+  "main": "@itkyk/ftp-core.darwin-x64.node",
   "files": [
-    "ftp-controller.darwin-x64.node"
+    "@itkyk/ftp-core.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {

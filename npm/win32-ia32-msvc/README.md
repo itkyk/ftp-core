@@ -1,3 +1,3 @@
-# `@itkyk/ftp-controller-win32-ia32-msvc`
+# `@itkyk/ftp-core-win32-ia32-msvc`
 
-This is the **i686-pc-windows-msvc** binary for `@itkyk/ftp-controller`
+This is the **i686-pc-windows-msvc** binary for `@itkyk/ftp-core`

@@ -1,3 +1,3 @@
-# `@itkyk/ftp-controller-android-arm-eabi`
+# `@itkyk/ftp-core-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `@itkyk/ftp-controller`
+This is the **armv7-linux-androideabi** binary for `@itkyk/ftp-core`

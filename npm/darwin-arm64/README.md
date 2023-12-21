@@ -1,3 +1,3 @@
-# `@itkyk/ftp-controller-darwin-arm64`
+# `@itkyk/ftp-core-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `@itkyk/ftp-controller`
+This is the **aarch64-apple-darwin** binary for `@itkyk/ftp-core`

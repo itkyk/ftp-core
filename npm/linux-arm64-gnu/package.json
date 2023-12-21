@@ -1,5 +1,5 @@
 {
-  "name": "@itkyk/ftp-controller-linux-arm64-gnu",
+  "name": "@itkyk/ftp-core-linux-arm64-gnu",
   "version": "0.0.0",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "ftp-controller.linux-arm64-gnu.node",
+  "main": "@itkyk/ftp-core.linux-arm64-gnu.node",
   "files": [
-    "ftp-controller.linux-arm64-gnu.node"
+    "@itkyk/ftp-core.linux-arm64-gnu.node"
   ],
   "license": "MIT",
   "engines": {

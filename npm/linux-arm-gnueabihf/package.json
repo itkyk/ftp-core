@@ -1,5 +1,5 @@
 {
-  "name": "@itkyk/ftp-controller-linux-arm-gnueabihf",
+  "name": "@itkyk/ftp-core-linux-arm-gnueabihf",
   "version": "0.0.0",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "ftp-controller.linux-arm-gnueabihf.node",
+  "main": "@itkyk/ftp-core.linux-arm-gnueabihf.node",
   "files": [
-    "ftp-controller.linux-arm-gnueabihf.node"
+    "@itkyk/ftp-core.linux-arm-gnueabihf.node"
   ],
   "license": "MIT",
   "engines": {

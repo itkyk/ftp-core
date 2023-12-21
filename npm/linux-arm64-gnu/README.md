@@ -1,3 +1,3 @@
-# `@itkyk/ftp-controller-linux-arm64-gnu`
+# `@itkyk/ftp-core-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `@itkyk/ftp-controller`
+This is the **aarch64-unknown-linux-gnu** binary for `@itkyk/ftp-core`
